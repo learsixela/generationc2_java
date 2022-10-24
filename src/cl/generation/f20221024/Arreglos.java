@@ -45,6 +45,24 @@ public class Arreglos {
 		numeroInt[0]=(int) 0.2;//0.0
 		System.out.println(numeroInt[0]);
 		
+		/*
+		 * crear un arreglo de enteros tamaño 100 
+		 * y agregar valores dinamicamente,
+		 * desde el 100 al 1
+		 */
+		int[] arreglo1a100 = new int[100];
+		
+		for(int i = 1;i<=100;i++) {
+			arreglo1a100[i-1]=i;
+		}
+		System.out.println(Arrays.toString(arreglo1a100));
+		
+		int[] arreglo100a1 = new int[100];
+		//{100,99,98,97...0}
+		for(int i =arreglo100a1.length; i>0  ;i-- ) {
+			arreglo100a1[arreglo100a1.length - i]= i;
+		}
+		
 		
 	}
 
