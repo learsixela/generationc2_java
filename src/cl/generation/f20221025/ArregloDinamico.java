@@ -17,14 +17,16 @@ public class ArregloDinamico {
 		relatores.add("Hector");
 		relatores.add("Maggi");
 		relatores.add("Israel");
+		relatores.add("Alejandro");
 		System.out.println(relatores);
 		//3.-tamaño del arraylist
 		System.out.println(relatores.size());
+		
 		/*length-> arreglos estaticos; size-> arreglos dinamicos*/
 		//4.- obtener un elemento dentro del arreglo
 		System.out.println(relatores.get(4));
 		//System.out.println(relatores.get(7));//fuera de indice
-		//5.-eliminar un elemento dentro del array
+		//5.-eliminar un elemento dentro del array, por posicion
 		relatores.remove(3);
 		relatores.remove(1);
 		System.out.println(relatores);
