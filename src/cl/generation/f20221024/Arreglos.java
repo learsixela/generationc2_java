@@ -9,7 +9,6 @@ public class Arreglos {
 		(estaticos, no cambia de tamaño)*/
 		int[] arreglo= new int[3];
 		//arreglo.length;tamaño del areeglo
-		
 		//agregar datos
 		arreglo[0]=4;
 		arreglo[1]=8;
