@@ -36,10 +36,18 @@ public class ArregloDinamico {
 		}
 		System.out.println("**************");
 		//for iterador o for de objeto
-		for(String relator : relatores ){
+		for(String relator  : relatores ){
 			System.out.println(relator);
 		}
+		ArrayList<Integer> numeros = new ArrayList<Integer>();
+		numeros.add(2);
+		numeros.add(3);
+		numeros.add(4);
+		numeros.add(5);
 		
+		for(Integer numero :numeros) {
+			System.out.println(numero);
+		}
 		
 	}
 
