@@ -27,6 +27,7 @@ public class PoliMain {
 		System.out.println("");
 		Mascota regalon = new Perro();
 		regalon.emitirSonido();
+		regalon.setNombre("Zoe");
 		System.out.println(regalon.toString());
 		
 		Mascota michi = new Gato();
@@ -36,6 +37,8 @@ public class PoliMain {
  * el metodo se escribe igual pero recibe distintos parametros*/
 		michi.horasSiesta(16.5f);
 		
+		//Perro dog = (Perro) new Mascota();
+		Perro dog = (Perro) regalon;
 	}
 
 }
