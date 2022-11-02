@@ -23,8 +23,10 @@ public class ArregloDinamico {
 		System.out.println(relatores.size());
 		
 		/*length-> arreglos estaticos; size-> arreglos dinamicos*/
+		
 		//4.- obtener un elemento dentro del arreglo
 		System.out.println(relatores.get(4));
+		
 		//System.out.println(relatores.get(7));//fuera de indice
 		//5.-eliminar un elemento dentro del array, por posicion
 		relatores.remove(3);
